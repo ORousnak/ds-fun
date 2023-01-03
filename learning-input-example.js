@@ -2,7 +2,7 @@
     "data": [
         // --------------------------------------------------------------------------------
         {
-            "featureName": "binance_bestBid0For1Second", // best bid sampled every 1 second
+            "featureName": "binance_btcUsdt_bestBid0For1Second", // best bid sampled every 1 second
             "pairsList": [
                 {
                     "time": "1672776891", //  NOW, which is = 1672776891 seconds since 1 January 1970 = Wed Jan  4 02:15:04 AM +06 2023
@@ -15,11 +15,11 @@
                 ... // more historical data
             ]
         },
-        // the same goes for featureNames: binance_bestBid1For1Second, binance_bestBid2For1Second, ..., binance_bestAsk0For1Second(another part of orderbook), binance_bestAsk0For1Second, binance_bestAsk1For1Second, ...
+        // the same goes for featureNames: binance_btcUsdt_bestBid1For1Second, binance_btcUsdt_bestBid2For1Second, ..., binance_btcUsdt_bestAsk0For1Second(another part of orderbook), binance_btcUsdt_bestAsk0For1Second, binance_btcUsdt_bestAsk1For1Second, ...
         // and then:
         // --------------------------------------------------------------------------------
         {
-            "featureName": "binance_bestBid0For5Second", // best bid sampled every 5 second
+            "featureName": "binance_btcUsdt_bestBid0For5Second", // best bid sampled every 5 second
             "pairsList": [
                 {
                     "time": "334555378", //  NOW, which is = (334555378 * 5) seconds since 1 January 1970 = Wed Jan  4 02:15:04 AM +06 2023
@@ -32,11 +32,11 @@
                 ... // more data
             ]
         },
-        // the same goes for featureNames: binance_bestBid1For5Second, binance_bestBid2For5Second, ..., binance_bestAsk0For5Second(another part of orderbook), binance_bestAsk0For5Second, binance_bestAsk1For5Second, ...
+        // the same goes for featureNames: binance_btcUsdt_bestBid1For5Second, binance_btcUsdt_bestBid2For5Second, ..., binance_btcUsdt_bestAsk0For5Second(another part of orderbook), binance_btcUsdt_bestAsk0For5Second, binance_btcUsdt_bestAsk1For5Second, ...
         // and then:
         // --------------------------------------------------------------------------------
         {
-            "featureName": "kucoin_bestBid0For1Second", // same data, but from kucoin exchange, not binance exchange
+            "featureName": "kucoin_btcUsdt_bestBid0For1Second", // same data, but from kucoin exchange, not binance exchange
             // same type of data but from different exchange
             ...
         },
